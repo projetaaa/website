@@ -136,6 +136,29 @@ a.info-pill:hover {
   margin-bottom: 0;
 }
 
+.content-section p.content-cta-wrap {
+  text-align: center;
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+.content-cta {
+  display: inline-block;
+  padding: 0.65rem 1.4rem;
+  border: 1px solid var(--text);
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: var(--text);
+  text-decoration: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.content-cta:hover {
+  background: var(--text);
+  color: var(--bg);
+}
+
 /* ── Footer ── */
 
 .footer {
@@ -342,6 +365,45 @@ a.info-pill:hover {
 .contributor-name {
   font-size: 1rem;
   line-height: 1.4;
+}
+
+/* ── Manifesto ── */
+
+.manifesto-section {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.manifesto-section h1 {
+  margin-bottom: 2rem;
+}
+
+.manifesto-section h2 {
+  font-size: clamp(1.4rem, 4vw, 2.2rem);
+  font-weight: 400;
+  color: var(--muted);
+  text-align: center;
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  margin-top: 2.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.manifesto-list {
+  margin: 0 auto 1.8rem;
+  max-width: 680px;
+  padding-left: 1.4rem;
+}
+
+.manifesto-list li {
+  font-size: 1.15rem;
+  line-height: 1.85;
+  color: var(--text);
+}
+
+.manifesto-author {
+  text-align: right;
 }
 
 /* ── Responsive ── */
